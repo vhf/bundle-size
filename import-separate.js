@@ -1,4 +1,4 @@
-import { first, join, last } from 'lodash'
+import { first, join, last } from 'lodash-es'
 
 const funcs = [first, join, last]
 const items = ['a', 'b']

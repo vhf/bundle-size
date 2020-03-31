@@ -1,8 +1,7 @@
-import lodash from 'lodash'
+import * as lodash from 'lodash-es'
 
-const funcs = ['first', 'join', 'last']
 const items = ['a', 'b']
-const index = Math.floor(Math.random() * funcs.length)
 
-console.log(index)
-console.log(lodash[funcs[index]](items))
+console.log(lodash.first(items))
+console.log(lodash.join(items))
+console.log(lodash.last(items))
