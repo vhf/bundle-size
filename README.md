@@ -11,7 +11,7 @@ CommonJS (`require/module.exports`) was making it impossible to do properly beca
 | `   1.2K import-separate.js` | `import { first, join, last } from 'lodash-es'` |
 | `   1.2K import-all.js` | `import * as lodash from 'lodash-es'` |
 | `   1.3K require-separate.js` | `const first = require('lodash/first');` `const join = require('lodash/join');` `const last = require('lodash/last')` |
-| `    72K require-default.js` | `import lodash from 'lodash-es'` |
+| `    72K require-default.js` | `const lodash = require('lodash')` |
 | `    86K import-default.js` | `import lodash from 'lodash-es'` |
 | `   349K require-dynamic.js` | `lodash[func] = require('lodash/' + func)` |
 
